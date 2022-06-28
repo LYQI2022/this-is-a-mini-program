@@ -1,0 +1,47 @@
+
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 20rpx;
+}
+.text-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40rpx;
+	/* background-color: skyblue; */
+}
+.left {
+	display: flex;
+}
+.right {
+	text-align: center;
+}
+.avatar-wrapper {
+	margin-right: 20rpx;
+}
+.avatar {
+	width: 112rpx;
+	height: 112rpx;
+	border-radius: 50%;
+}
+.card {
+	height: 800rpx;
+	margin-top: 30rpx;
+	border-radius: 10rpx;
+	box-shadow: 5px 5px 5px 5px #cdcfcf;
+}
+.smart {
+	text-align: center;
+}
+.img {
+	width: 250rpx;
+	height: 250rpx;
+	border-radius: 50%;
+}
+.btn {
+	width: 480rpx;
+	margin: auto;
+	margin-bottom: 20rpx;
+}
+

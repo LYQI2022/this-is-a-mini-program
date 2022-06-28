@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"usingComponenets": {
+
+				}
+			}
+
+		},
+		{
+			"path": "pages/examine/examine"
+		},
+		{
+			"path": "pages/class/class"
+		},
+		{
+			"path": "subpkg/pages/calculate/calculate"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#fff",
+		"usingComponents": {
+			"van-button": "/wxcomponents/@vant/weapp/button/index",
+			"van-icon": "/wxcomponents/@vant/weapp/icon/index",
+			"van-tab": "/wxcomponents/@vant/weapp/tab/index",
+			"van-tabs": "/wxcomponents/@vant/weapp/tabs/index"
+		}
+	},
+	"tabBar": {
+		"list": [{
+				"text": "作业检查",
+				"pagePath": "pages/examine/examine",
+				"iconPath": "./static/tabbar/检查.png",
+				"selectedIconPath": "./static/tabbar/检查.png"
+			},
+			{
+				"text": "练习",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/tabbar/练习.png",
+				"selectedIconPath": "./static/tabbar/练习.png"
+			},
+
+			{
+				"text": "班级",
+				"pagePath": "pages/class/class",
+				"iconPath": "./static/tabbar/电脑.png",
+				"selectedIconPath": "./static/tabbar/电脑.png"
+			}
+		]
+	}
+}
